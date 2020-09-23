@@ -54,5 +54,4 @@ function CalcButtons() {
         </div>
     );
 }
-
 export default CalcButtons;
