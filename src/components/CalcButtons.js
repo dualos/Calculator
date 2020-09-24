@@ -4,10 +4,6 @@ import "./CalcButtons.css";
 function CalcButtons() {
     return (
         <div className="calc-keys">
-            <button type="button" class="operator" value="+">
-                +
-            </button>
-
             <button type="button" value="7">
                 7
             </button>
@@ -16,6 +12,9 @@ function CalcButtons() {
             </button>
             <button type="button" value="9">
                 9
+            </button>
+            <button type="button" class="operator" value="+">
+                +
             </button>
 
             <button type="button" value="4">
@@ -27,6 +26,9 @@ function CalcButtons() {
             <button type="button" value="6">
                 6
             </button>
+            <button type="button" class="operator" value="-">
+                -
+            </button>
 
             <button type="button" value="1">
                 1
@@ -37,17 +39,23 @@ function CalcButtons() {
             <button type="button" value="3">
                 3
             </button>
-
-            <button type="button" value="0">
-                0
+            <button type="button" class="operator" value="*">
+                *
             </button>
 
+            <button class="zero-button" type="button" value="0">
+                0
+            </button>
             <button type="button" class="decimal" value=".">
                 .
             </button>
             <button type="button" class="all-clear" value="all-clear">
                 AC
             </button>
+            <button type="button" class="operator" value="/">
+                /
+            </button>
+
             <button type="button" class="equal-sign" value="=">
                 =
             </button>
